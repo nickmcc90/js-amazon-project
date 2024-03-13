@@ -1,0 +1,12 @@
+--CREATE THE LIST OF PRODUCTS--
+The main idea of javascript is to...
+1. Save the data
+2. Generate the HTML
+3. Make it interactive
+
+Since we want to find the HTML we want to copy, then paste it a bunch..
+we inspect element on the page and find out what the HTML element is called,
+or what its class name is. Then we do Ctrl+F in the code to find it.
+
+Now we cooooooould just copy and paste the code we find a bunch of times. But
+this is inefficient.
