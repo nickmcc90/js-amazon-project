@@ -10,3 +10,35 @@ or what its class name is. Then we do Ctrl+F in the code to find it.
 
 Now we cooooooould just copy and paste the code we find a bunch of times. But
 this is inefficient.
+
+<timestamp: 22:45>
+
+1. SAVING THE DATA
+
+The key to copying and reusing data is choosing a good data structure
+for the job. 
+
+A list works good for the items on the page, like an array.
+An object works good for the elements inside each container item
+because it lets us group multiple values together.
+
+So we can have a list of objects for the page.
+
+When calculating money, javascript has a tough time with float amounts.
+Remember to save values of money in cents.
+
+Within amazon.js, we created a data structure using arrays and objects to
+resemble the items on the amazon site. This was our first step, saving
+the data.
+
+2. GENERATE THE HTML
+We can have a forEach loop that goes through each product and
+inserts each products corresponding attributes into the HTML
+template in the template strings.
+
+We multiplied one of the template string object values by 10 because
+the image names don't exist in floats, and the rating stars could be floats
+sometimes.
+
+Now the next step is to combine all this HTML together and put it on
+the web page.
