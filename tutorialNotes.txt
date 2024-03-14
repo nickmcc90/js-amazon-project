@@ -42,3 +42,27 @@ sometimes.
 
 Now the next step is to combine all this HTML together and put it on
 the web page.
+<timestamp: 41:52>
+
+Each time we go through the forEach loop, we add our html
+to a variable defined as an empty string.
+
+Now we gotta put this html into a element on the page.
+It looks like products-grid is suitable, since it holds
+all the product containers. We are going to give it another
+class specifically to manipulate in javascript.
+
+Aside: toFixed() allows you to have a specific number of
+decimal values in a number.
+
+What is the benefit of generating this html?
+
+For real life websites, we put website data in a data
+structure, then have another script that generates
+html and puts the data in it.
+
+3. MAKE IT INTERACTIVE
+**Remember, use querySelectorAll when you are generating
+HTML because there will be many of the same class in that
+repeated element.
+<timestamp: 59:54>
