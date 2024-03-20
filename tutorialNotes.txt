@@ -67,3 +67,30 @@ HTML because there will be many of the same class in that
 repeated element.
 <timestamp: 59:54>
 
+We added event listeners to all the add cart buttons.
+We should put a function in there that actually adds them
+to the cart. The cart can be a list of objects that have
+the name of the item as the key, and the quantity of the
+item as the value.
+
+How do we know which product to add though? We use a....
+
+Data Attribute.
+
+This isn't a class. We put it in the opening tag of something.
+They have to start with "data-". Then we can put any name
+after it. In this instance, we did data-product-name, then
+set it equal to ${product.name} to capture the product name.
+
+To pull this attribute from the element, we do ."dataset".
+
+When grabbing this value from the element, it changes the value
+from kebab case (words-like-this) to camel case (wordsLikeThis).
+
+In order to increase the item's quantity to a value greater than
+one, we need to first check through the cart to see if the item is
+already there in order to make code to increment. If it isn't there,
+we can't increment anything; that would mean we have to add it first.
+
+<timestamp: 1:15:08. Figure out why add to cart button wont increment
+the quantity. Then carry on.>
