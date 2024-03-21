@@ -1,0 +1,9 @@
+These are the exercises to do at the end of the video. We
+can listen to music while doing this now >:3
+
+When adding a product to the cart, instead of increasing the
+quantity by 1, we'll increase the quantity by the number in
+the selector.
+
+<timestamp: 1:27:28. We are about to add a class to the select
+html to identify the quantity selector.>

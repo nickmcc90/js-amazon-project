@@ -94,3 +94,18 @@ we can't increment anything; that would mean we have to add it first.
 
 <timestamp: 1:15:08. Figure out why add to cart button wont increment
 the quantity. Then carry on.>
+Fixed it.
+
+Instead of using the item's name to check if another is in the cart,
+we should use the item's id (we'll create one.) This ensures that we
+don't grab another item with the same name, but it's a different brand.
+Each item's ID will be unique.
+
+------
+
+Now let's make the cart number in the basket in the top right interactive.
+To do this, we can calculate the quantity of everything by looping through
+our cart array and adding all the quantities. Then we can insert the number
+into the element in amazon.html with querySelector.
+
+------
