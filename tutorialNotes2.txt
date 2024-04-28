@@ -7,3 +7,5 @@ the selector.
 
 <timestamp: 1:27:28. We are about to add a class to the select
 html to identify the quantity selector.>
+
+<Same timestamp as above... about to move on to exercises past 13f.>
